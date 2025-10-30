@@ -11,9 +11,10 @@ int main(int argc, char *argv[])
   
   sum=0;
   
+  printf("%i명 점수를  입력하세요:\n",SIZE);
+  
   for(i=0;i<SIZE;i++)
   { 
-    printf("학생 성적을 입력하세요:");
     scanf("%d", &grade[i]);
     sum+=grade[i];
   
